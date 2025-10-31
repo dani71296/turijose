@@ -48,7 +48,7 @@ const Paquetes = () => {
       {/* === PAQUETE 1 DÍA === */}
       <Paquete
         titulo="Selva 1 Día – Cañón del Bala y Madidi"
-        imagen="/images/canion-bala.jpeg"
+        imagen="/images/canion-bala.webp"
         resumen={`Una aventura de un día perfecta para quienes buscan naturaleza, cultura y emoción. 
 Explora el imponente Cañón del Bala y adéntrate en la selva del Madidi con guías locales.`}
         detalle={`🗓️ ITINERARIO – 1 DÍA
@@ -69,7 +69,7 @@ Opción de baño en el río o paseo corto por el bosque tropical.
       {/* === PAQUETE 2 DÍAS === */}
       <Paquete
         titulo="Selva 2 Días – Comunidad Tacana"
-        imagen="/images/selva-tacana.jpeg"
+        imagen="/images/selva-tacana.webp"
         resumen={`Vive dos días de aventura cultural y natural en la comunidad indígena Tacana de Villa Alcira 🌿. 
 Explora la selva prístina, conoce las tradiciones locales, la molienda de caña, el proceso del cacao y disfruta de baños naturales.`}
         detalle={`🗓️ DÍA 1
@@ -107,7 +107,7 @@ Retorno a Rurrenabaque.`}
       {/* === PAQUETE 3 DÍAS === */}
       <Paquete
         titulo="Selva 3 Días – Aventura Completa"
-        imagen="/images/combinado-selva-pampas.jpeg"
+        imagen="/images/combinado-selva-pampas.webp"
         resumen={`La experiencia más completa 🌎: combina el recorrido por el Cañón del Bala y el Madidi con la inmersión cultural en la comunidad Tacana. Ideal para quienes buscan aventura, cultura y naturaleza en su máxima expresión.`}
         detalle={`🗓️ DÍA 1 – Cañón del Bala y Madidi
 08:00 a.m. – Salida desde Rurrenabaque hacia el Parque Nacional Madidi.  

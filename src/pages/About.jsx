@@ -7,7 +7,7 @@ export default function About() {
       {/* Imagen principal */}
       <div className="max-w-4xl w-full mb-8">
         <img
-          src="/images/equipo.jpeg"
+          src="/images/equipo.webp"
           alt="Nuestro equipo"
           className="w-full h-80 object-cover rounded-2xl shadow-lg"
         />
@@ -26,9 +26,9 @@ export default function About() {
 
       {/* Galería inferior */}
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-5xl">
-        <img src="/images/turista1.jpeg" alt="Aventura" className="rounded-xl shadow-md object-cover h-64 w-full" />
-        <img src="/images/turistas2.jpeg" alt="Cultura" className="rounded-xl shadow-md object-cover h-64 w-full" />
-        <img src="/images/turistas3.jpeg" alt="Naturaleza" className="rounded-xl shadow-md object-cover h-64 w-full" />
+        <img src="/images/turista1.webp" alt="Aventura" className="rounded-xl shadow-md object-cover h-64 w-full" />
+        <img src="/images/turistas2.webp" alt="Cultura" className="rounded-xl shadow-md object-cover h-64 w-full" />
+        <img src="/images/turistas3.webp" alt="Naturaleza" className="rounded-xl shadow-md object-cover h-64 w-full" />
       </div>
     </div>
   );

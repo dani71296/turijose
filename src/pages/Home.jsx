@@ -6,7 +6,7 @@ const Home = () => {
       {/* HERO */}
       <section className="relative h-[70vh] flex flex-col items-center justify-center text-center">
           <img
-            src="/images/capihero.jpeg"
+            src="/images/capihero.webp"
             alt="Rurrenabaque"
             className="absolute inset-0 w-full h-full object-cover brightness-75"
           />
@@ -50,17 +50,17 @@ const Home = () => {
         {[
           {
             name: "Parque Nacional Madidi",
-            img: "/images/madidi.jpeg",
+            img: "/images/madidi.webp",
             desc: "Uno de los parques más biodiversos del mundo, hogar de miles de especies únicas.",
           },
           {
             name: "Río Beni",
-            img: "/images/rurre.jpeg",
+            img: "/images/rurre.webp",
             desc: "Un recorrido inolvidable en bote por las aguas del imponente Río Beni.",
           },
           {
             name: "Comunidad San Miguel del Bala",
-            img: "/images/amazon.jpeg",
+            img: "/images/amazon.webp",
             desc: "Vive una experiencia cultural con la comunidad Tacana y aprende sobre su forma de vida.",
           },
         ].map((destino) => (
