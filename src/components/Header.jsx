@@ -9,8 +9,8 @@ const Header = () => {
     { name: "Inicio", path: "/" },
     { name: "Quiénes Somos", path: "/about" },
     { name: "Paquetes", path: "/paquetes" },
-    { name: "Galeria", path: "/galeria" },
-    { name: "Contacto", path: "/contacto" },
+    /* { name: "Galeria", path: "/galeria" }, */
+    { name: "Contacto y Reserva", path: "/contacto" },
   ];
 
   return (

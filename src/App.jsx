@@ -5,7 +5,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Paquetes from "./pages/Paquetes";
 import Contacto from "./pages/Contacto"
-import Galeria from "./pages/Galeria"
+/* import Galeria from "./pages/Galeria" */
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/paquetes" element={<Paquetes />} />
           <Route path="/contacto" element={<Contacto />} />
-          <Route path="/galeria" element={<Galeria />} />
+          {/* <Route path="/galeria" element={<Galeria />} /> */}
         </Routes>
       </main>
       <Footer />
