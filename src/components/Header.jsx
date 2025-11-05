@@ -17,9 +17,9 @@ const Header = () => {
     <header className="bg-white shadow-md fixed w-full top-0 left-0 z-50">
       <div className="flex items-center justify-between px-6 py-4 max-w-7xl mx-auto">
         {/* LOGO */}
-        <h1 className="text-2xl font-bold text-teal-600">
-          Tur<i>i</i>Jose
-        </h1>
+    <Link to="/" className="text-2xl font-bold text-teal-600 hover:text-teal-700 transition-colors">
+      Tur<i>i</i>Jose
+    </Link>
 
         {/* MENU PC */}
         <nav className="hidden md:flex space-x-6">

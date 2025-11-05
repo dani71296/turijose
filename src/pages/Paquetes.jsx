@@ -5,13 +5,13 @@ const Paquete = ({ titulo, imagen, resumen, detalle }) => {
   const [expandido, setExpandido] = useState(false);
 
   return (
-    <div className="flex flex-col md:flex-row bg-white shadow-lg rounded-2xl overflow-hidden mb-10 max-w-6xl mx-auto">
+    <div className="flex flex-col md:flex-row bg-white shadow-lg rounded-2xl overflow-hidden mb-10 max-w-6xl mx-auto transform transition duration-300 hover:scale-105">
       <img
         src={imagen}
         alt={titulo}
         className="md:w-1/2 h-64 object-cover"
       />
-      <div className="p-6 flex flex-col justify-between md:w-1/2">
+      <div className="p-6 flex flex-col justify-between md:w-1/2 ">
         <div>
           <h2 className="text-2xl font-semibold text-green-700 mb-3">{titulo}</h2>
           <p className="text-gray-700 text-sm leading-relaxed whitespace-pre-line">
@@ -40,7 +40,7 @@ const Paquete = ({ titulo, imagen, resumen, detalle }) => {
 
 const Paquetes = () => {
   return (
-    <div className="bg-green-50 min-h-screen py-12">
+    <div className=" min-h-screen py-12">
       <h1 className="text-3xl font-bold text-center mb-10 text-green-800">
         Nuestros Paquetes Turísticos
       </h1>

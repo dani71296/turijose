@@ -6,6 +6,7 @@ import About from "./pages/About";
 import Paquetes from "./pages/Paquetes";
 import Contacto from "./pages/Contacto"
 /* import Galeria from "./pages/Galeria" */
+import WhatsappButton from "./components/WhatsappButton"; 
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         </Routes>
       </main>
       <Footer />
+      <WhatsappButton /> 
     </>
   );
 }
