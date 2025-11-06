@@ -5,12 +5,15 @@ export default function About() {
   return (
     <div className="flex flex-col items-center text-center px-4 py-12 text-gray-800">
       {/* Imagen principal */}
-      <div className="max-w-4xl w-full mb-8">
+      <div className="relative w-full h-[60vh] flex items-center justify-center">
         <img
           src="/images/equipo.webp"
           alt="Nuestro equipo"
-          className="w-full h-80 object-cover rounded-2xl shadow-lg"
+          className="absolute inset-0 w-full h-full object-cover brightness-50"
         />
+        <h1 className="relative text-white text-5xl font-bold z-10">
+          QUIENES SOMOS
+        </h1>
       </div>
 
       {/* Quiénes somos */}

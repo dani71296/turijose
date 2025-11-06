@@ -18,17 +18,41 @@ export default function Contact() {
   };
 
   return (
-    <section className="flex flex-col items-center justify-center min-h-screen bg-gray-100 px-4">
-      <h2 className="text-3xl font-bold text-center mb-6 text-green-700">
-        Contáctanos
-      </h2>
+    <section className="flex flex-col items-center justify-center bg-gray-100">
+      {/* 🟢 HERO */}
+      <div className="relative w-full h-[60vh] flex items-center justify-center">
+        <img
+          src="/images/contacto.webp" // 🔹 pon aquí la imagen que desees
+          alt="Contáctanos"
+          className="absolute inset-0 w-full h-full object-cover brightness-50"
+        />
+        <h1 className="relative text-white text-5xl font-bold z-10">
+          Contáctanos
+        </h1>
+      </div>
 
+      {/* 🟡 TEXTO INFORMATIVO */}
+      <div className="max-w-2xl text-center mt-10 px-4">
+        <h2 className="text-2xl font-bold text-green-700 mb-4">
+          Información y Reserva
+        </h2>
+        <p className="text-gray-700">
+          Para hacer una reserva o para solicitar precios y más información,
+          por favor llena el formulario a continuación. ¡Respondemos a los
+          correos rápidamente!
+        </p>
+      </div>
+
+      {/* 🔵 FORMULARIO */}
       <form
         onSubmit={handleSubmit}
-        className="w-full max-w-md bg-white p-6 rounded-2xl shadow-lg"
+        className="w-full max-w-md bg-white p-6 rounded-2xl shadow-lg mt-8"
       >
         <div className="mb-4">
-          <label className="block text-gray-700 font-semibold mb-2" htmlFor="name">
+          <label
+            className="block text-gray-700 font-semibold mb-2"
+            htmlFor="name"
+          >
             Nombre
           </label>
           <input
@@ -43,7 +67,10 @@ export default function Contact() {
         </div>
 
         <div className="mb-4">
-          <label className="block text-gray-700 font-semibold mb-2" htmlFor="email">
+          <label
+            className="block text-gray-700 font-semibold mb-2"
+            htmlFor="email"
+          >
             Correo Electrónico
           </label>
           <input
@@ -58,7 +85,10 @@ export default function Contact() {
         </div>
 
         <div className="mb-4">
-          <label className="block text-gray-700 font-semibold mb-2" htmlFor="message">
+          <label
+            className="block text-gray-700 font-semibold mb-2"
+            htmlFor="message"
+          >
             Mensaje
           </label>
           <textarea
@@ -79,6 +109,12 @@ export default function Contact() {
           Enviar Mensaje
         </button>
       </form>
+
+      {/* 🔴 PIE DE CONTACTO */}
+      <div className="text-center mt-12 mb-8">
+        <h3 className="text-xl font-bold text-green-700 mb-2">Contáctanos</h3>
+        <p className="text-gray-700">📧 contacto@tueempresa.com</p>
+      </div>
     </section>
   );
 }
