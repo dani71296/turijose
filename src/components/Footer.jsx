@@ -1,3 +1,4 @@
+// Footer.jsx
 import { FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
@@ -27,6 +28,21 @@ const Footer = () => {
               contacto@turismojose.com
             </a>
           </p>
+        </div>
+
+        {/* ENLACES */}
+        <div className="mb-6 md:mb-0">
+          <h3 className="text-lg font-semibold mb-2">Información</h3>
+          <ul className="text-sm text-gray-300 space-y-1">
+            <li>
+              <Link
+                to="/politica-cancelacion"
+                className="hover:text-teal-400 transition-colors"
+              >
+                Política de Cancelación
+              </Link>
+            </li>
+          </ul>
         </div>
 
         {/* REDES SOCIALES */}
@@ -70,3 +86,4 @@ const Footer = () => {
 };
 
 export default Footer;
+

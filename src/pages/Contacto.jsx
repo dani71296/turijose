@@ -4,6 +4,7 @@ export default function Contact() {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
+    date: "",
     message: "",
   });
 
@@ -22,7 +23,7 @@ export default function Contact() {
       {/* 🟢 HERO */}
       <div className="relative w-full h-[60vh] flex items-center justify-center">
         <img
-          src="/images/contacto.webp" // 🔹 pon aquí la imagen que desees
+          src="/images/contacto.webp"
           alt="Contáctanos"
           className="absolute inset-0 w-full h-full object-cover brightness-50"
         />
@@ -43,11 +44,25 @@ export default function Contact() {
         </p>
       </div>
 
+      {/* 🟣 NUEVA SECCIÓN - Modalidad de Pago */}
+      <div className="max-w-2xl text-center mt-8 px-4">
+        <h3 className="text-xl font-bold text-green-700 mb-2">
+          Modalidad de Pago
+        </h3>
+        <p className="text-gray-700">
+          Los pagos se realizan en <strong>dólares americanos (USD)</strong> al
+          momento de la llegada, de manera presencial.  
+          Es necesario escribirnos para confirmar la reserva en la fecha
+          deseada.
+        </p>
+      </div>
+
       {/* 🔵 FORMULARIO */}
       <form
         onSubmit={handleSubmit}
         className="w-full max-w-md bg-white p-6 rounded-2xl shadow-lg mt-8"
       >
+        {/* Nombre */}
         <div className="mb-4">
           <label
             className="block text-gray-700 font-semibold mb-2"
@@ -66,6 +81,7 @@ export default function Contact() {
           />
         </div>
 
+        {/* Correo */}
         <div className="mb-4">
           <label
             className="block text-gray-700 font-semibold mb-2"
@@ -84,6 +100,26 @@ export default function Contact() {
           />
         </div>
 
+        {/* Fecha de viaje */}
+        <div className="mb-4">
+          <label
+            className="block text-gray-700 font-semibold mb-2"
+            htmlFor="date"
+          >
+            Fecha de viaje
+          </label>
+          <input
+            type="date"
+            id="date"
+            name="date"
+            value={formData.date}
+            onChange={handleChange}
+            required
+            className="w-full p-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 outline-none"
+          />
+        </div>
+
+        {/* Mensaje */}
         <div className="mb-4">
           <label
             className="block text-gray-700 font-semibold mb-2"

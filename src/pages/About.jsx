@@ -18,7 +18,7 @@ export default function About() {
 
       {/* Quiénes somos */}
       <div className="max-w-3xl mb-12">
-        <h2 className="text-3xl font-bold mb-4 text-blue-700">Quiénes Somos</h2>
+        <h2 className="text-3xl font-bold mb-4 text-green-700">Quiénes Somos</h2>
         <p className="text-gray-600 leading-relaxed">
           En <strong>Turismo José</strong> creemos que viajar es mucho más que visitar lugares:
           es conectar con culturas, personas y paisajes únicos. Desde nuestros inicios, trabajamos
@@ -29,7 +29,7 @@ export default function About() {
 
       {/* Misión */}
       <div className="max-w-3xl mb-12">
-        <h3 className="text-2xl font-semibold mb-3 text-blue-800">Nuestra Misión</h3>
+        <h3 className="text-2xl font-semibold mb-3 text-green-700">Nuestra Misión</h3>
         <p className="text-gray-600 leading-relaxed">
           Brindar experiencias turísticas auténticas y responsables, promoviendo el desarrollo
           sostenible de las comunidades locales y la conservación del medio ambiente, mientras
@@ -39,7 +39,7 @@ export default function About() {
 
       {/* Visión */}
       <div className="max-w-3xl mb-12">
-        <h3 className="text-2xl font-semibold mb-3 text-blue-800">Nuestra Visión</h3>
+        <h3 className="text-2xl font-semibold mb-3 text-green-700">Nuestra Visión</h3>
         <p className="text-gray-600 leading-relaxed">
           Ser reconocidos como una de las principales agencias de turismo sostenible en Bolivia,
           inspirando a más personas a descubrir la riqueza natural y cultural de nuestro país con
@@ -49,7 +49,7 @@ export default function About() {
 
       {/* Valores */}
       <div className="max-w-5xl mb-16">
-        <h3 className="text-2xl font-semibold mb-8 text-blue-800">Nuestros Valores</h3>
+        <h3 className="text-2xl font-semibold mb-8 text-green-700">Nuestros Valores</h3>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 ">
           {[
             { title: "Respeto", desc: "Valoramos la diversidad cultural, natural y humana en cada experiencia." },
@@ -63,7 +63,7 @@ export default function About() {
               key={valor.title}
               className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transform transition duration-300 hover:scale-110 "
             >
-              <h4 className="text-xl font-bold mb-2 text-blue-700">{valor.title}</h4>
+              <h4 className="text-xl font-bold mb-2 text-gray-500">{valor.title}</h4>
               <p className="text-gray-600">{valor.desc}</p>
             </div>
           ))}

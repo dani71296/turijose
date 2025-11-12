@@ -7,6 +7,7 @@ import Paquetes from "./pages/Paquetes";
 import Contacto from "./pages/Contacto"
 /* import Galeria from "./pages/Galeria" */
 import WhatsappButton from "./components/WhatsappButton"; 
+import PoliticaCancelacion from "./pages/PoliticaCancelacion"
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/paquetes" element={<Paquetes />} />
           <Route path="/contacto" element={<Contacto />} />
+          <Route path="/politica-cancelacion" element={<PoliticaCancelacion />} />
+
           {/* <Route path="/galeria" element={<Galeria />} /> */}
         </Routes>
       </main>
