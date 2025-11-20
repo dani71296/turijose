@@ -24,7 +24,7 @@ const Paquete = ({ titulo, imagen, resumen, detalle }) => {
             onClick={() => setExpandido(!expandido)}
             className="bg-green-100 text-green-800 px-3 py-1 rounded-lg text-sm font-medium hover:bg-green-200 transition"
           >
-            {expandido ? "Ver menos" : "Ver más"}
+            {expandido ? "Ver menos" : "Ver itinerario"}
           </button>
           <Link
             to="/contacto"

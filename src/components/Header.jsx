@@ -18,7 +18,7 @@ const Header = () => {
       <div className="flex items-center justify-between px-6 py-4 max-w-7xl mx-auto">
         {/* LOGO */}
     <Link to="/" className="text-2xl font-bold text-teal-600 hover:text-teal-700 transition-colors">
-      Tur<i>i</i>Jose
+      Eco<i>T</i>our <i>Tacana</i>
     </Link>
 
         {/* MENU PC */}

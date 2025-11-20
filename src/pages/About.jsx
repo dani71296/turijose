@@ -20,75 +20,112 @@ export default function About() {
       <div className="max-w-3xl mb-12">
         <h2 className="text-3xl font-bold mb-4 text-green-700">Quiénes Somos</h2>
         <p className="text-gray-600 leading-relaxed">
-          En <strong>Turismo José</strong> creemos que viajar es mucho más que visitar lugares:
-          es conectar con culturas, personas y paisajes únicos. Desde nuestros inicios, trabajamos
-          para ofrecer experiencias inolvidables a cada viajero, con el compromiso de brindar
-          calidad, seguridad y hospitalidad.
+          Somos <strong>Eco Tour Tacana,</strong> un emprendimiento turístico familiar
+          operado por la familia Apuri, Puro y Cuentas, dentro de la milenaria
+          Comunidad Nativa Tacana en el corazón de la Amazonía boliviana.
+          No somos solo un destino; somos una aventura auténtica y un compromiso de vida.
         </p>
       </div>
 
       {/* Misión */}
       <div className="max-w-3xl mb-12">
-        <h3 className="text-2xl font-semibold mb-3 text-green-700">Nuestra Misión</h3>
+        <h3 className="text-2xl font-semibold mb-3 text-green-700">Nuestra Misión y Espíritu</h3>
         <p className="text-gray-600 leading-relaxed">
-          Brindar experiencias turísticas auténticas y responsables, promoviendo el desarrollo
-          sostenible de las comunidades locales y la conservación del medio ambiente, mientras
-          generamos recuerdos inolvidables para nuestros visitantes.
+          En un mundo de turismo masivo, Eco Tours Tacana nace de la necesidad y el sueño
+          de la familia Apuri: preservar nuestra comunidad y nuestra cultura Tacana.
+          Decidimos luchar contra la migración y la modernidad con una oportunidad de
+          desarrollo propio, ofreciendo una experiencia inmersiva y consciente.
+          <br /><br />
+          Ofrecemos una aventura real y mística de contacto directo con la naturaleza
+          y nuestra cultura. Aquí, te desconectarás del ajetreo cotidiano y te
+          conectarás con el latido de la selva y la historia viva de un pueblo ancestral.
         </p>
       </div>
 
-      {/* Visión */}
-      <div className="max-w-3xl mb-12">
-        <h3 className="text-2xl font-semibold mb-3 text-green-700">Nuestra Visión</h3>
+      {/* Objetivo principal */}
+      <div className="max-w-3xl mb-16">
+        <h3 className="text-2xl font-semibold mb-3 text-green-700">Objetivo Principal</h3>
         <p className="text-gray-600 leading-relaxed">
-          Ser reconocidos como una de las principales agencias de turismo sostenible en Bolivia,
-          inspirando a más personas a descubrir la riqueza natural y cultural de nuestro país con
-          respeto, responsabilidad y pasión.
+          Proteger y preservar este hábitat único para que todos —animales y humanos
+          por igual— puedan disfrutar de este pedazo de naturaleza para siempre.
+          Lo conseguimos gracias al apoyo de visitantes, voluntarios y donaciones,
+          ya que no recibimos financiación gubernamental.
         </p>
       </div>
 
-      {/* Valores */}
-      <div className="max-w-5xl mb-16">
-        <h3 className="text-2xl font-semibold mb-8 text-green-700">Nuestros Valores</h3>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 ">
-          {[
-            { title: "Respeto", desc: "Valoramos la diversidad cultural, natural y humana en cada experiencia." },
-            { title: "Hermandad", desc: "Fomentamos la unión, la confianza y el apoyo entre viajeros y comunidades." },
-            { title: "Responsabilidad", desc: "Actuamos con compromiso hacia el entorno y las personas." },
-            { title: "Pasión", desc: "Amamos lo que hacemos y lo transmitimos en cada aventura." },
-            { title: "Seguridad", desc: "Cuidamos de nuestros clientes y colaboradores en todo momento." },
-            { title: "Sostenibilidad", desc: "Promovemos el turismo consciente que respeta la naturaleza." },
-          ].map((valor) => (
-            <div
-              key={valor.title}
-              className="bg-white rounded-xl shadow-md p-6 hover:shadow-lg transform transition duration-300 hover:scale-110 "
-            >
-              <h4 className="text-xl font-bold mb-2 text-gray-500">{valor.title}</h4>
-              <p className="text-gray-600">{valor.desc}</p>
-            </div>
-          ))}
+      {/* BLOQUE 1 — imagen / texto */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center max-w-5xl mb-20">
+        <img
+          src="/images/turista1.webp"
+          className="rounded-xl shadow-md object-cover w-full h-80"
+          alt="Comunidad Tacana"
+        />
+        <div className="text-left">
+          <h3 className="text-2xl font-semibold mb-3 text-green-700">
+            La Comunidad Tacana: Cuna de Nuestro Hogar
+          </h3>
+          <p className="text-gray-600 leading-relaxed">
+            Nuestra comunidad, Villa Alcira, se asienta majestuosamente a orillas
+            del río Beni, en el municipio de San Buenaventura. Formamos parte de la
+            Reserva Ecológica Madidi.
+            <br /><br />
+            La economía Tacana se basa en la agricultura, pesca, caza, recolección y la artesanía.
+            Nuestra identidad está profundamente arraigada en una cosmovisión única.
+            <br /><br />
+            El CIPTA ha luchado por la defensa de nuestros derechos y territorios TCO
+            Tacana I y II, hogar de especies emblemáticas como el jaguar, la londra y el
+            caimán negro.
+          </p>
         </div>
       </div>
 
-      {/* Galería inferior */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 max-w-5xl ">
-        <img
-          src="/images/turista1.webp"
-          alt="Aventura"
-          className="rounded-xl shadow-md object-cover h-64 w-full transform transition duration-300 hover:scale-110"
-        />
+      {/* BLOQUE 2 — texto / imagen */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center max-w-5xl mb-20">
+        <div className="text-left order-2 md:order-1">
+          <h3 className="text-2xl font-semibold mb-3 text-green-700">
+            Impacto: ¿A Quién Beneficias con tu Visita?
+          </h3>
+          <p className="text-gray-600 leading-relaxed">
+            Tu decisión de elegir Eco Tours Tacana transforma directamente:
+            <br /><br />
+            • <strong>La Familia Apuri, Puro y Cuentas:</strong> tu visita asegura la continuidad y crecimiento del proyecto.<br />
+            • <strong>Las 50 familias de Villa Alcira:</strong> tus recursos se quedan en la comunidad generando economía local.<br />
+            • <strong>La conservación del Madidi:</strong> ayudas a evitar la despoblación y proteger el territorio ancestral.
+          </p>
+        </div>
+        
         <img
           src="/images/turistas2.webp"
-          alt="Cultura"
-          className="rounded-xl shadow-md object-cover h-64 w-full transform transition duration-300 hover:scale-110"
+          className="rounded-xl shadow-md object-cover w-full h-80 order-1 md:order-2"
+          alt="Impacto del turismo"
         />
+      </div>
+
+      {/* BLOQUE 3 — imagen / texto */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center max-w-5xl mb-20">
         <img
           src="/images/turistas3.webp"
-          alt="Naturaleza"
-          className="rounded-xl shadow-md object-cover h-64 w-full transform transition duration-300 hover:scale-110"
+          className="rounded-xl shadow-md object-cover w-full h-80"
+          alt="Eco Tour Tacana especial"
         />
+
+        <div className="text-left">
+          <h3 className="text-2xl font-semibold mb-3 text-green-700">
+            ¿Qué hace especial a Eco Tour Tacana?
+          </h3>
+          <p className="text-gray-600 leading-relaxed">
+            • Naturaleza virgen: ecosistemas, fauna salvaje y equilibrio natural.<br />
+            • Maravillas arqueológicas: vestigios de una civilización precolombina.<br />
+            • Hospitalidad cálida: lodge ecológico, gastronomía local y trato familiar.<br />
+            • Guías expertos: conocimientos profundos de la selva y cultura Tacana.
+            <br /><br />
+            Tu visita es una inversión en el futuro de nuestra comunidad y la conservación
+            del Madidi.
+          </p>
+        </div>
       </div>
     </div>
   );
 }
+
 

@@ -12,7 +12,7 @@ const Footer = () => {
             to="/"
             className="text-2xl font-bold text-teal-500 hover:text-teal-400 transition-colors"
           >
-            Tur<i>i</i>Jose
+            Eco<i>T</i>our <i>Tacana</i>
           </Link>
         </div>
 
@@ -79,7 +79,7 @@ const Footer = () => {
 
       {/* COPYRIGHT */}
       <div className="mt-8 border-t border-gray-700 pt-4 text-center text-sm text-gray-400">
-        © {new Date().getFullYear()} Turismo José. Todos los derechos reservados.
+        © {new Date().getFullYear()} Eco Tour Tacana. Todos los derechos reservados.
       </div>
     </footer>
   );
