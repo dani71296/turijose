@@ -28,7 +28,7 @@ const DestinationModal = ({ destino, onClose }) => {
         {/* Contenido del modal */}
         <div className="p-6 text-center">
           <h2 className="text-3xl font-bold mb-4">{destino.name}</h2>
-          <p className="text-gray-700 text-base mb-6 leading-relaxed">
+          <p className="text-gray-700 text-base mb-6 leading-relaxed ">
             {destino.textoLargo}
           </p>
 

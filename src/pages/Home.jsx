@@ -8,17 +8,19 @@ const Home = () => {
   const destinos = [
     {
       name: "Caminatas Místicas por la Selva Húmedai",
-      img: "/images/madidi.webp",
+      img: "/images/caminata.webp",
       imgModal: "/images/madidi2.webp", // imagen alternativa del modal
-      desc: "Diseñadas para que experimentes la selva.",
+      desc: "Prepárate para una inmersión total en uno de los ecosistemas más biodiversos del planeta diseñadas para que experimentes la selva.",
       textoLargo:
-        "Prepárate para una inmersión total en uno de los ecosistemas más biodiversos del planeta. Nuestras caminatas se realizan por senderos ancestrales, utilizados por nuestros abuelos",
+        "San Miguel del Bala es una comunidad Tacana que te invita a vivir su cultura de cerca. Aprende sobre sus tradiciones, participa en la elaboración de artesanías y descubre su respeto por la naturaleza. Una experiencia auténtica y transformadora.",
+
+
     },
     {
       name: "Avistamiento de Parabas y Miradores Naturales",
       img: "/images/rurre.webp",
       imgModal: "/images/beni2.webp",
-      desc: "Un recorrido inolvidable por el imponente Río Beni.",
+      desc: "La Amazonía te regala espectáculos que cortan la respiración, y el de las parabas es uno de ellos.",
       textoLargo:
         "La Amazonía te regala espectáculos que cortan la respiración, y el de las parabas es uno de ellos",
     },
@@ -26,7 +28,7 @@ const Home = () => {
       name: "Refugio y Frescura en los Arroyos",
       img: "/images/amazon.webp",
       imgModal: "/images/sanmiguel3.webp",
-      desc: "Vive una experiencia cultural única con la comunidad Tacana.",
+      desc: "Después de la energía invertida en la exploración de la selva, la madre naturaleza ofrece su recompensa.",
       textoLargo:
         "San Miguel del Bala es una comunidad Tacana que te invita a vivir su cultura de cerca. Aprende sobre sus tradiciones, participa en la elaboración de artesanías y descubre su respeto por la naturaleza. Una experiencia auténtica y transformadora.",
     },
@@ -34,37 +36,37 @@ const Home = () => {
       name: "Pesca Tradicional en el Río Beni",
       img: "/images/amazon.webp",
       imgModal: "/images/sanmiguel3.webp",
-      desc: "Vive una experiencia cultural única con la comunidad Tacana.",
+      desc: "Conéctate con el río, nuestra principal arteria de vida, a través de una actividad ancestral: la pesca.",
       textoLargo:
         "San Miguel del Bala es una comunidad Tacana que te invita a vivir su cultura de cerca. Aprende sobre sus tradiciones, participa en la elaboración de artesanías y descubre su respeto por la naturaleza. Una experiencia auténtica y transformadora.",
     },
     {
       name: "Noche Mística: Campamento y Leyendas",
-      img: "/images/amazon.webp",
+      img: "/images/campamento.webp",
       imgModal: "/images/sanmiguel3.webp",
-      desc: "Vive una experiencia cultural única con la comunidad Tacana.",
+      desc: "Para los verdaderos amantes de la aventura, ofrecemos una experiencia de inmersión total: pernoctar en las profundidades de la selva virgen.",
       textoLargo:
         "San Miguel del Bala es una comunidad Tacana que te invita a vivir su cultura de cerca. Aprende sobre sus tradiciones, participa en la elaboración de artesanías y descubre su respeto por la naturaleza. Una experiencia auténtica y transformadora.",
     },
     {
-      name: "Noche Mística: Campamento y Leyendas",
-      img: "/images/amazon.webp",
+      name: "Convivencia Auténtica con la Familia Apuri",
+      img: "/images/convivencia.webp",
       imgModal: "/images/sanmiguel3.webp",
-      desc: "Vive una experiencia cultural única con la comunidad Tacana.",
+      desc: "Esta es la joya de nuestra propuesta: una experiencia directa, sin filtros, con la familia Apuri en el Albergue Eco Tour Tacana.",
       textoLargo:
         "San Miguel del Bala es una comunidad Tacana que te invita a vivir su cultura de cerca. Aprende sobre sus tradiciones, participa en la elaboración de artesanías y descubre su respeto por la naturaleza. Una experiencia auténtica y transformadora.",
     },
     {
       name: "Del Cacao al Chocolate: Taller Artesanala",
-      img: "/images/amazon.webp",
+      img: "/images/chocolate.webp",
       imgModal: "/images/sanmiguel3.webp",
-      desc: "Vive una experiencia cultural única con la comunidad Tacana.",
+      desc: "Sumérgete en el proceso ancestral de uno de los tesoros más valiosos de la Amazonía: el cacao.",
       textoLargo:
         "San Miguel del Bala es una comunidad Tacana que te invita a vivir su cultura de cerca. Aprende sobre sus tradiciones, participa en la elaboración de artesanías y descubre su respeto por la naturaleza. Una experiencia auténtica y transformadora.",
     },
     {
       name: "Molienda de Caña y Refrescos Naturales",
-      img: "/images/amazon.webp",
+      img: "/images/caña.webp",
       imgModal: "/images/sanmiguel3.webp",
       desc: "Vive una experiencia cultural única con la comunidad Tacana.",
       textoLargo:
@@ -72,9 +74,9 @@ const Home = () => {
     },
     {
       name: "Rastros de la Historia: Petroglifos Ancestrales",
-      img: "/images/amazon.webp",
+      img: "/images/logo piedra dos.webp",
       imgModal: "/images/sanmiguel3.webp",
-      desc: "Vive una experiencia cultural única con la comunidad Tacana.",
+      desc: "Villa Alcira es también un portal al pasado milenario.",
       textoLargo:
         "San Miguel del Bala es una comunidad Tacana que te invita a vivir su cultura de cerca. Aprende sobre sus tradiciones, participa en la elaboración de artesanías y descubre su respeto por la naturaleza. Una experiencia auténtica y transformadora.",
     },
