@@ -5,7 +5,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Paquetes from "./pages/Paquetes";
 import Contacto from "./pages/Contacto"
-/* import Galeria from "./pages/Galeria" */
+import Mapa from "./pages/Mapa"
 import WhatsappButton from "./components/WhatsappButton"; 
 import PoliticaCancelacion from "./pages/PoliticaCancelacion"
 
@@ -20,8 +20,7 @@ function App() {
           <Route path="/paquetes" element={<Paquetes />} />
           <Route path="/contacto" element={<Contacto />} />
           <Route path="/politica-cancelacion" element={<PoliticaCancelacion />} />
-
-          {/* <Route path="/galeria" element={<Galeria />} /> */}
+          <Route path="/mapa" element={<Mapa />} /> 
         </Routes>
       </main>
       <Footer />

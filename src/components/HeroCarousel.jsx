@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 export default function HeroCarousel() {
   const slides = [
@@ -50,12 +51,13 @@ export default function HeroCarousel() {
         <h1 className="text-4xl md:text-6xl font-bold text-white drop-shadow-lg mb-6">
           {slides[current].title}
         </h1>
-        <a
-          href="/Paquetes"
+        <Link
+          to="/paquetes"
           className="inline-block bg-yellow-200 hover:bg-yellow-400 text-black font-semibold py-3 px-8 rounded-full shadow-lg transition duration-300"
         >
           Ver paquetes
-        </a>
+        </Link>
+
       </div>
 
       {/* Botones izquierda/derecha */}
