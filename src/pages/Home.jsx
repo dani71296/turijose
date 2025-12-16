@@ -34,7 +34,7 @@ const Home = () => {
     },
     {
       name: "Pesca Tradicional en el Río Beni",
-      img: "/images/amazon.webp",
+      img: "/images/turista1.webp",
       imgModal: "/images/amazon.webp",
       desc: "Conéctate con el río, nuestra principal arteria de vida, a través de una actividad ancestral: la pesca.",
       textoLargo:
