@@ -51,7 +51,7 @@ export default function HeroCarousel() {
           {slides[current].title}
         </h1>
         <a
-          href="/paquetes"
+          href="/Paquetes"
           className="inline-block bg-yellow-200 hover:bg-yellow-400 text-black font-semibold py-3 px-8 rounded-full shadow-lg transition duration-300"
         >
           Ver paquetes
