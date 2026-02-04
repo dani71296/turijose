@@ -8,6 +8,7 @@ import Contacto from "./pages/Contacto"
 import Mapa from "./pages/Mapa"
 import WhatsappButton from "./components/WhatsappButton"; 
 import PoliticaCancelacion from "./pages/PoliticaCancelacion"
+import PreguntasFrecuentes from "./pages/PreguntasFrecuentes"
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/contacto" element={<Contacto />} />
           <Route path="/politica-cancelacion" element={<PoliticaCancelacion />} />
           <Route path="/mapa" element={<Mapa />} /> 
+          <Route path="/preguntas-frecuentes" element={<PreguntasFrecuentes />} />
         </Routes>
       </main>
       <Footer />

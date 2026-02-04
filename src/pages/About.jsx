@@ -2,6 +2,16 @@
 import React from "react";
 
 export default function About() {
+  const videoLinks = [
+    "https://www.youtube.com/embed/aFUurdoecUM",
+    "https://www.youtube.com/embed/3xkvy7coce4",
+    "https://www.youtube.com/embed/KX9yIpE5z-U",
+    "https://www.youtube.com/embed/6Cu7lNJLcqQ",
+    "https://www.youtube.com/embed/G-6YXSJvZps",
+    "https://www.youtube.com/embed/ULV8CBQVfNc",
+    "https://www.youtube.com/embed/E_smaQFvabI",
+  ];
+
   return (
     <div className="flex flex-col items-center text-center px-4 py-12 text-gray-800">
       {/* Imagen principal */}
@@ -124,8 +134,27 @@ export default function About() {
           </p>
         </div>
       </div>
+
+      {/* SECCIÓN DE VIDEOS YOUTUBE */}
+      <div className="max-w-6xl w-full mb-20">
+        <h3 className="text-3xl font-bold mb-8 text-green-700">Nuestras Experiencias en Video</h3>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          {videoLinks.map((url, index) => (
+            <div key={index} className="overflow-hidden rounded-xl shadow-lg bg-white">
+              <div className="aspect-video">
+                <iframe
+                  className="w-full h-full"
+                  src={url}
+                  title={`YouTube video player ${index}`}
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                ></iframe>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
     </div>
   );
 }
-
-

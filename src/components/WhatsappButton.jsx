@@ -3,7 +3,7 @@ import React from "react";
 import { MessageCircle } from "lucide-react"; // 👈 ícono moderno
 
 export default function WhatsappButton() {
-  const phoneNumber = "59174261375"; // Reemplázalo con tu número
+  const phoneNumber = "59167042665"; // Reemplázalo con tu número
   const message = "¡Hola! Me gustaría recibir más información sobre sus servicios.";
 
   return (

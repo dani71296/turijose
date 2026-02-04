@@ -1,5 +1,5 @@
 // Footer.jsx
-import { FaFacebook, FaInstagram, FaWhatsapp } from "react-icons/fa";
+import { FaFacebook, FaInstagram, FaWhatsapp, FaYoutube } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
@@ -25,32 +25,40 @@ const Footer = () => {
               href="mailto:contacto@turismojose.com"
               className="text-teal-400 hover:underline"
             >
-              contacto@turismojose.com
+              josecuentasy@gmail.com
             </a>
           </p>
         </div>
 
         {/* ENLACES */}
-        <div className="mb-6 md:mb-0">
-          <h3 className="text-lg font-semibold mb-2">Información</h3>
-          <ul className="text-sm text-gray-300 space-y-1">
-            <li>
-              <Link
-                to="/politica-cancelacion"
-                className="hover:text-teal-400 transition-colors"
-              >
-                Política de Cancelación
-              </Link>
-            </li>
-          </ul>
-        </div>
-
+<div className="mb-6 md:mb-0">
+  <h3 className="text-lg font-semibold mb-2">Información</h3>
+  <ul className="text-sm text-gray-300 space-y-1">
+    <li>
+      <Link
+        to="/politica-cancelacion"
+        className="hover:text-teal-400 transition-colors"
+      >
+        Política de Cancelación
+      </Link>
+    </li>
+    {/* Nuevo enlace de Preguntas Frecuentes */}
+    <li>
+      <Link
+        to="/preguntas-frecuentes"
+        className="hover:text-teal-400 transition-colors"
+      >
+        Preguntas Frecuentes
+      </Link>
+    </li>
+  </ul>
+</div>
         {/* REDES SOCIALES */}
         <div>
           <h3 className="text-lg font-semibold mb-2">Follow us</h3>
           <div className="flex justify-center md:justify-start space-x-4">
             <a
-              href="https://facebook.com"
+              href="https://www.facebook.com/profile.php?id=61586620805439"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-blue-500 transition-colors"
@@ -58,15 +66,15 @@ const Footer = () => {
               <FaFacebook size={24} />
             </a>
             <a
-              href="https://instagram.com"
+              href="www.youtube.com/@EcoTourTacana"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-pink-500 transition-colors"
             >
-              <FaInstagram size={24} />
+              <FaYoutube size={24} />
             </a>
             <a
-              href="https://wa.me/1234567890"
+              href="https://wa.me/59167042665"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-green-500 transition-colors"

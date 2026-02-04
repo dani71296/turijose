@@ -53,10 +53,10 @@ export default function Contact() {
           Modalidad de Pago
         </h3>
         <p className="text-gray-700">
-          Los pagos se realizan en <strong>dólares americanos (USD)</strong> al
-          momento de la llegada, de manera presencial.  
-          Es necesario escribirnos para confirmar la reserva en la fecha
-          deseada.
+        Los pagos se realizan en <strong>dólares americanos (USD) o bolivianos (BOB)</strong> al
+        momento de la llegada, de manera presencial. Aceptamos pagos mediante 
+        <strong> tarjeta de crédito/débito, efectivo y código QR</strong>. 
+        Es necesario escribirnos para confirmar la reserva en la fecha deseada.
         </p>
       </div>
 
